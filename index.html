@@ -3,65 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jagrati Mali, BTech CSE (AI & ML) student at RGPV, Indore, learning machine learning for data analytics by building projects.">
     <link rel="stylesheet" href="style.css">
     <title>Jagrati Mali | Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>Jagrati Mali</h1>
+        <h1><a href="index.html">Jagrati Mali</a></h1>
         <nav>
-            <a href="#home">Home</a>   
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
+            <a href="#roadmap">Roadmap</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
-        </nav> 
+        </nav>
     </header>
+
     <main>
         <section id="home" class="hero">
             <div class="hero-text">
                 <p class="eyebrow">Hi, I'm Jagrati</p>
                 <h2>Turning messy data into clear answers.</h2>
-                <p class="lead">BTech CSE (AIML) student in Indore, learning ML for data analytics by building projects end to end.</p>
+                <p class="lead">BTech CSE (AI &amp; ML) student at RGPV, Indore. I'm learning machine learning for data analytics by building projects end to end.</p>
                 <div class="hero-buttons">
                     <a href="#projects" class="button">View projects</a>
                     <a href="#contact" class="button button-ghost">Get in touch</a>
+                    <a href="RESUME.pdf" target="_blank" rel="noopener" class="button button-ghost">Resume</a>
                 </div>
             </div>
             <aside class="now-card">
-                <h3>Right now</h3>
+                <h3>This term</h3>
                 <ul>
-                    <li><span class="dot"></span>Building: medical cost regression</li>
-                    <li><span class="dot"></span>Learning: regression diagnostics</li>
-                    <li><span class="dot"></span>Next: credit default scorecard</li>
+                    <li><span class="dot"></span>Learning: Python, NumPy and Pandas</li>
+                    <li><span class="dot"></span>Starting: medical cost regression</li>
+                    <li><span class="dot"></span>Planned: credit default scorecard</li>
                 </ul>
             </aside>
         </section>
+
         <section id="about">
             <h2>About</h2>
-            <p>BTech CSE (AIML) at RGPV, Indore, finished the IITM BS Foundation, learning ML for data analytics.</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Machine learning projects</p>
-            <div class="cards">
-                <article>
-                    <h3>Medical cost regression deep-dive</h3>
-                    <p>What actually drives someone's medical insurance charges, and is the model fair across groups?</p>
-                    <a href="#" class="button">View project</a>
-                </article>
-                <article>
-                    <h3>Credit default scorecard with a cost-sensitive cutoff</h3>
-                    <p>A bank wants to approve loans. Missing a defaulter costs far more than rejecting a good customer, so where should the approval cutoff sit?</p>
-                    <a href="#" class="button">View project</a>
-                </article>
-                <article>
-                    <h3>Campus health survey with hypothesis tests</h3>
-                    <p>Do sleep, screen time, and stress actually relate to CGPA among college students?</p>
-                    <a href="#" class="button">View project</a>
-                </article>   
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a BTech Computer Science (AI &amp; ML) student at RGPV, Indore, currently in my third semester. I've also completed the Foundation level of the IITM BS in Data Science and Applications, and I'm taking a break from it this term to focus on building projects.</p>
+                    <p>I learn each concept just before a project needs it, apply it, and write up what I find. So far I've worked with Python, NumPy, Pandas, Matplotlib, Git and GitHub.</p>
+                </div>
+                <dl class="facts">
+                    <dt>Education</dt>
+                    <dd>BTech CSE (AI &amp; ML), RGPV, 3rd semester</dd>
+                    <dt>Also</dt>
+                    <dd>IITM BS Data Science and Applications, Foundation level completed</dd>
+                    <dt>Location</dt>
+                    <dd>Indore, India</dd>
+                    <dt>Focus</dt>
+                    <dd>Machine learning for data analytics</dd>
+                </dl>
             </div>
         </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p class="section-intro">Three projects planned for completion by 22 December 2026.</p>
+            <div class="cards">
+                <article>
+                    <h3>Medical cost regression</h3>
+                    <p>What drives insurance charges, and does the model treat different groups fairly?</p>
+                    <ul class="tags">
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>statsmodels</li>
+                        <li>scikit-learn</li>
+                    </ul>
+                    <span class="status">Starting</span>
+                </article>
+                <article>
+                    <h3>Credit default scorecard</h3>
+                    <p>Where should a lender set the approval cutoff when a missed defaulter costs more than a rejected good customer?</p>
+                    <ul class="tags">
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>scikit-learn</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                    <span class="status">Planned</span>
+                </article>
+                <article>
+                    <h3>Campus health survey</h3>
+                    <p>Do sleep, screen time and stress relate to CGPA? I'll collect the data myself and test it with hypothesis tests.</p>
+                    <ul class="tags">
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>statsmodels</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                    <span class="status">Planned</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="roadmap">
+            <h2>Learning roadmap</h2>
+            <div class="roadmap">
+                <article>
+                    <h3>Foundations</h3>
+                    <p class="when">Oct 2026</p>
+                    <ul>
+                        <li>Python, NumPy, Pandas</li>
+                        <li>Data cleaning</li>
+                        <li>Visualization</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Regression</h3>
+                    <p class="when">Nov 2026</p>
+                    <ul>
+                        <li>Linear regression and diagnostics</li>
+                        <li>VIF and regularization</li>
+                        <li>Gradient descent from scratch</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Classification</h3>
+                    <p class="when">Nov to Dec 2026</p>
+                    <ul>
+                        <li>Logistic regression, ROC/AUC, lift</li>
+                        <li>Decision trees, KNN</li>
+                        <li>Random Forest</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
         <section id="skills">
             <h2>Skills</h2>
             <ul class="skill-set">
@@ -69,15 +141,22 @@
                 <li>NumPy</li>
                 <li>Pandas</li>
                 <li>Matplotlib</li>
+                <li>Git</li>
+                <li>GitHub</li>
                 <li>HTML</li>
                 <li>CSS</li>
             </ul>
         </section>
+
         <section id="contact">
             <h2>Contact</h2>
-            <a href="mailto:jagrati7678@gmail.com">jagrati7678@gmail.com</a>
+            <p class="section-intro">I'm happy to hear feedback on my projects or talk about data work.</p>
+            <div class="contactme">
+                <a href="mailto:jagrati7678@gmail.com">jagrati7678@gmail.com</a>
+                <a href="https://github.com/Jagrati07" target="_blank" rel="noopener">GitHub</a>
+            </div>
         </section>
     </main>
-    <footer>2026</footer>
+    <footer>&copy; 2026 Jagrati Mali</footer>
 </body>
 </html>
